@@ -11,6 +11,10 @@ def get_property_collection():
     db = client.get_database()
     return db.properties
 
+@app.route('/', methods=['GET'])
+def home():
+    return "Welcome to the Property API"
+
 @app.route('/properties/', methods=['GET'])
 def get_properties():
     property_collection = get_property_collection()
