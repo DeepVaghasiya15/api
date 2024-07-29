@@ -17,6 +17,6 @@ def keep_alive():
             print(f"An error occurred: {e}")
         
         # Wait for 10 minutes before sending the next request
-        time.sleep(600)
+        time.sleep(60)
 
-keep_alive()
+# keep_alive()

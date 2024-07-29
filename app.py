@@ -2,6 +2,7 @@ from flask import Flask, jsonify
 from flask_cors import CORS
 from pymongo import MongoClient
 from config import MONGO_URI
+from keeping_alive import keep_alive
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all domains
@@ -22,4 +23,5 @@ def get_properties():
     return jsonify(properties)
 
 if __name__ == '__main__':
+    keep_alive()
     app.run(port=7777)
