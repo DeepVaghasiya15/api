@@ -375,7 +375,7 @@ properties = [
     {
         "index": 8,
         "imageAssetPath": "assets/images/PropertyCard/GasStation.webp",
-        "type": "Single Family",
+        "type": "Gas Station",
         "title": "Gas Station",
         "address": "3737Branford Pl, Sugar Land, sugar land, Texas 77479, United States",
         "builtUpArea": "4000 sqft",
@@ -385,7 +385,7 @@ properties = [
         "category": "Residential",
         "id": "PROP240611284",
         "imagePaths": [
-            "assets/images/House/home.jpg",
+            "assets/images/PropertyCard/GasStation.webp",
         ],
         "listedBy": "Owner",
         "startingBid": "\$100,000",
